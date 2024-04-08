@@ -80,14 +80,14 @@ Expected Output:
 
 ## Usage
 
-1. Simply run the command below:
+Simply run the command below:
     
    ```bash
    python self_discover.py
 
    ```
 
-## You can see that in the Streamlit also
+## You can also see that in the Streamlit also
 
    ```
    python streamlit run app.py
