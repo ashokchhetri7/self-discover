@@ -38,15 +38,6 @@ SELF-DISCOVER: Large Language Models Self-Compose Reasoning Structures
    Replace `your_google_api_key_here` with your actual Google API key obtained from [google makersuite](https://makersuite.google.com/app/apikey).
    Your can also use OPENAI_API_KEY as well
 
-## Usage
-
-1. Simply run the command below:
-    
-   ```bash
-   python self_discover.py
-
-   ```
-
 ## Customization
 
 - Modify the `reasoning_modules` variable in `prompts.py` to add, remove, or modify reasoning modules.
@@ -61,8 +52,8 @@ step-by-step reasoning plan in JSON to correctly solve the task. Fill in the val
 about the task given. Do not simply rephrase the keys.”, followed by the reasoning structure, and finally the task instance.
 ```
 
-# Final Output 
-- Based on the above reasoning structure and step I have given the following structure to get the final output: 
+## Final Output 
+- Based on the above reasoning structure and step I have given the following structure to get the final output. No need to run this. (It's not runnable) 
 
 ```markdown
 
@@ -86,6 +77,15 @@ Expected Output:
 }
 
 ```
+
+## Usage
+
+1. Simply run the command below:
+    
+   ```bash
+   python self_discover.py
+
+   ```
 
 ## You can see that in the Streamlit also
 
