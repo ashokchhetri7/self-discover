@@ -1,11 +1,10 @@
 ### SELF-DISCOVER: Large Language Models Self-Compose Reasoning Structures
 
 ##
-This is the extension from the gitrepo. All credit goes to this repo and the Original Paper given below:
-
-https://github.com/kailashsp/SelfDiscover.git
-
-## Paper Overview [link](https://arxiv.org/pdf/2402.03620.pdf)
+This is the extension from the git repo. [https://github.com/kailashsp/SelfDiscover.git]
+All credit goes to this repo and the Original Paper given below:
+SELF-DISCOVER: Large Language Models Self-Compose Reasoning Structures
+[link](https://arxiv.org/pdf/2402.03620.pdf)
 
 ## Prerequisites
 
