@@ -1,16 +1,10 @@
-### SELF-DISCOVER: Large Language Models Self-Compose Reasoning Structures
+# SELF-DISCOVER: Large Language Models Self-Compose Reasoning Structures
 
-##
-This is the extension from the git repo. [https://github.com/kailashsp/SelfDiscover.git]
-All credit goes to this repo and the Original Paper given below:
-SELF-DISCOVER: Large Language Models Self-Compose Reasoning Structures
-[link](https://arxiv.org/pdf/2402.03620.pdf)
+# Self-Discover
 
-## Prerequisites
+ All credit for the original work goes to the authors of the repository and the original paper. SELF-DISCOVER: Large Language Models Self-Compose Reasoning Structures [Link to the paper](link/to/original/paper)
+ This repository is an extension of the [SelfDiscover](https://github.com/kailashsp/SelfDiscover.git) repository by Kailash Prasannakumar who implemented the original paper. 
 
-- Python 3.10
-- Libraries: google-generativeai, openai, dotenv
-- Input the task you want to generate a reasoning structure in task_example.py
 
 ## Installation
 
