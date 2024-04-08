@@ -60,8 +60,32 @@ For Stage 2, where we use the self-discovered structure to solve the task instan
 step-by-step reasoning plan in JSON to correctly solve the task. Fill in the values following the keys by reasoning specifically 
 about the task given. Do not simply rephrase the keys.”, followed by the reasoning structure, and finally the task instance.
 ```
-You can now give the task with the reasoning structure with the above prompt
 
+# Final Output 
+- Based on the above reasoning structure and step I have given the following structure to get the final output: 
+
+```markdown
+
+Follow the step-by-step reasoning plan in {reasoning_structure} to correctly solve the task. 
+Fill in the values following the keys by reasoning specifically about the task given. 
+Do not simply rephrase the keys. And finally provide the "final_answer" of the given question.
+
+For the given task; 
+<Task>
+{Task}
+</Task>
+
+Given reasoning steps;
+{reasoning_structure}
+
+Expected Output:
+{
+  "final_answer": {
+    ...
+    }
+}
+
+```
 
 ## You can see that in the Streamlit also
 
