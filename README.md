@@ -1,6 +1,4 @@
----
-title: SELF-DISCOVER
----
+### SELF-DISCOVER: Large Language Models Self-Compose Reasoning Structures
 
 ##
 This is the extension from the gitrepo. All credit goes to this repo and the Original Paper given below:
