@@ -87,7 +87,7 @@ Simply run the command below:
 
    ```
 
-## You can also see that in the Streamlit also
+## You can also see that in the Streamlit
 
    ```
    python streamlit run app.py
