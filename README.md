@@ -42,7 +42,9 @@ SELF-DISCOVER: Large Language Models Self-Compose Reasoning Structures
 
 1. Simply run the command below:
     
-   ```python self_discover.py
+   ```bash
+   python self_discover.py
+
    ```
 
 ## Customization
@@ -63,7 +65,8 @@ You can now give the task with the reasoning structure with the above prompt
 
 ## You can see that in the Streamlit also
 
-   ```python streamlit run app.py
+   ```
+   python streamlit run app.py
    ```
 You can see the ouptut of the select, adapt, implement as well as final ouptut in the web using this command.
 
