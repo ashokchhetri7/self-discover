@@ -17,8 +17,8 @@ jobs:
       - name: Add remote 
         env:
           HF_TOKEN: ${{ secrets.HF_TOKEN }}
-        run: git remote add space https://kailashsp:$HF_TOKEN@huggingface.co/spaces/kailashsp/SELF-DISCOVER
+        run: git remote add space https://github.com/ashokchhetri7/self-discover
       - name: Push to hub
         env:
           HF_TOKEN: ${{ secrets.HF_TOKEN }}
-        run: git push --force https://kailashsp:$HF_TOKEN@huggingface.co/spaces/kailashsp/SELF-DISCOVER main
+        run: git push --force https://github.com/ashokchhetri7/self-discover main

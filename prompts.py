@@ -84,3 +84,35 @@ ADAPTED module descriptions:
 
 Implement a reasoning structure to generalise similar task to follow step-by-step and arrive at correct answers
 """
+
+# solve_prompt = """
+# Follow the step-by-step reasoning plan in JSON to correctly solve the task. Fill in the values following the keys by reasoning specifically about the task given. Do not simply rephrase the keys.
+
+# {reasoning_structure}
+
+# <Task>
+# {Task}
+# </Task>
+# """
+
+solve_prompt = """
+Follow the step-by-step reasoning plan in {reasoning_structure} to correctly solve the task. 
+Fill in the values following the keys by reasoning specifically about the task given. 
+Do not simply rephrase the keys. And finally provide the "final_answer" of the given question.
+
+For the given task; 
+<Task>
+{Task}
+</Task>
+
+Given reasoning steps;
+{reasoning_structure}
+
+Expected Output:
+{
+  "final_answer": {
+    ...
+    }
+}
+
+"""

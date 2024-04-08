@@ -42,6 +42,10 @@ class LLM:
             return response.text
         
         elif self.model_name == 'OpenAI':
+
+            # print("Beiginig of the PROMPT--------------------------------------- \n")
+            # print(prompt)
+            # print("Ending of the PROMPT ------------------------------------- \n")
             res = self.model.chat.completions.create(
                 model="gpt-3.5-turbo-1106",
                 # response_format={"type": "json_object"},

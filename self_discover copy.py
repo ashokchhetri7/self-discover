@@ -2,8 +2,7 @@ from prompts import(
     select_prompt,
     reasoning_modules,
     adapt_prompt,
-    implement_prompt,
-    solve_prompt
+    implement_prompt
 )
 
 from llm import LLM
@@ -30,8 +29,8 @@ class SelfDiscover:
     def __init__(self, task) -> None:
         self.llm = LLM(model_name="OpenAI") #This is changed by ashok to the gemini-pro from OpenAI
         # self.llm = LLM(model_name="gemini-pro") #This is changed by ashok to the gemini-pro from OpenAI        
-
-        self.actions = ["SELECT", "ADAPT", "IMPLEMENT", "SOLVE"]
+        
+        self.actions = ["SELECT", "ADAPT", "IMPLEMENT"]
         self.task = task
 
     def __call__(self):
@@ -55,13 +54,6 @@ class SelfDiscover:
                 prompt = prompt.replace("{adapted_modules}", self.adapted_modules)
                 logger.info("IMPLEMENT PROMPT:" + prompt)
                 self.reasoning_structure = self.llm(prompt)
-            
-            elif action == "SOLVE":
-                prompt = solve_prompt.replace("{reasoning_structure}", self.reasoning_structure)
-                prompt = prompt.replace("{Task}", self.task)
-                logger.info("SOLVE PROMPT:" + prompt)
-                self.solution = self.llm(prompt)
-                
 
 
 if __name__=="__main__":
@@ -70,4 +62,3 @@ if __name__=="__main__":
     logger.info(f"SELECTED_MODULES : {result.selected_modules}")
     logger.info(f"ADAPTED_MODULES : {result.adapted_modules}")
     logger.info(f"REASONING_STRUCTURE : {result.reasoning_structure}")
-    logger.info(f"SOLUTION: {result.solution}")

@@ -1,0 +1,30 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f0f2f6;
+    color: #333333;
+}
+
+.stApp {
+    background-color: #ffffff;
+    padding: 2rem;
+    border-radius: 0.5rem;
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
+}
+
+h1 {
+    font-weight: 700;
+    margin-bottom: 1.5rem;
+}
+
+label {
+    font-weight: 600;
+}
+
+.stTextArea textarea {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 0.875rem;
+}
+
+.stButton {
+    margin-top: 1rem;
+}
