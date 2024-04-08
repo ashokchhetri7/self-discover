@@ -1,9 +1,15 @@
 # SELF-DISCOVER: Large Language Models Self-Compose Reasoning Structures
 
-# Self-Discover
+## Self-Discover
 
- All credit for the original work goes to the authors of the repository and the original paper. SELF-DISCOVER: Large Language Models Self-Compose Reasoning Structures [Link to the paper](link/to/original/paper)
- This repository is an extension of the [SelfDiscover](https://github.com/kailashsp/SelfDiscover.git) repository by Kailash Prasannakumar who implemented the original paper. 
+This repository is an extension of the [SelfDiscover](https://github.com/kailashsp/SelfDiscover.git) repository by Kailash Prasannakumar, which implements the ideas from the following original paper:
+
+## Original Paper
+
+SELF-DISCOVER: Large Language Models Self-Compose Reasoning Structures
+[Link to the paper](https://arxiv.org/pdf/2402.03620.pdf)
+
+The original paper was written by Pei Zhou with Google DeepMind, while the SelfDiscover repository is an implementation of that paper by Kailash Prasannakumar.
 
 
 ## Installation
