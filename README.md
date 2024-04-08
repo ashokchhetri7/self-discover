@@ -2,14 +2,14 @@
 
 ## Self-Discover
 
-This repository is an extension of the [SelfDiscover](https://github.com/kailashsp/SelfDiscover.git) repository by Kailash Prasannakumar, which implements the ideas from the following original paper:
+This repository is an extension of the [SELF-DISCOVER](https://github.com/kailashsp/SELF-DISCOVER) repository by Kailash Prasannakumar, which implements the ideas from the following original paper:
 
 ## Original Paper
 
 SELF-DISCOVER: Large Language Models Self-Compose Reasoning Structures
 [Link to the paper](https://arxiv.org/pdf/2402.03620.pdf)
 
-The original paper was written by Pei Zhou with Google DeepMind, while the SelfDiscover repository is an implementation of that paper by Kailash Prasannakumar.
+The original paper was written by Pei Zhou with Google DeepMind, while the SELF-DISCOVER repository is an implementation of that paper by Kailash Prasannakumar.
 
 
 ## Installation
